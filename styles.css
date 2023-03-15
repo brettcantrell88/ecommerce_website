@@ -14,6 +14,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    color:black
 }
 
 .search {
@@ -25,8 +26,21 @@ nav {
 }
 
 .home img {
-    float: left;
+    float: center;
     margin-right: 3rem;
     width: 700px;
-    padding: 50px 50px;
+    padding: 1px 100px;
+    background-color: black;
+}
+
+.about h3 {
+    margin-right: 3rem;
+}
+
+.about img p1 {
+    float: right;
+}
+
+.about img p2 {
+    float: left;
 }
